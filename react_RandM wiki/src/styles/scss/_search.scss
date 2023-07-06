@@ -1,0 +1,25 @@
+.input {
+  width: 40%;
+  border: 0.15rem solid $blue;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 0.2rem $blue;
+  &:focus {
+    outline: none;
+  }
+}
+
+.search-btn {
+  box-shadow: 0 0 0.2rem rgb(0, 0, 0, 0.5);
+}
+
+@media (max-width: 36.1rem) {
+  .input {
+    width: 80%;
+    margin: auto;
+  }
+
+  .search-btn {
+    width: fit-content;
+    margin: auto;
+  }
+}

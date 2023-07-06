@@ -1,0 +1,69 @@
+/* elemnty stylu wsp�lnych dla ca�ego dokumentu */
+body
+{ font-size: 1em;
+    font-family: timesnewroman; 
+		background-color: #e392d3;
+		}	
+
+/* styl akapitu o identyfikatorze maly */
+p#maly
+{
+	font-size:0.8em;
+  font-style:italic;
+}
+	
+/* marginesy do obrazk�w*/	
+img {margin: 10px;}
+
+/* styl nag��wk�w pierwszego poziomu */ 
+h1   
+{
+	text-align: center;
+} 
+
+/* styl dla elementu listy */	
+li 
+{
+	font-size: 1em;
+	color: #000091;   
+}	
+button{
+	border:none;
+	padding-top: 10px;
+	padding-bottom: 8px;
+	color: aliceblue;
+	font-weight: bold;
+	width: 300px;
+	margin-bottom: 105px;
+	border-radius: 105px;
+}
+#increment-btn{
+	background:darkred;
+}
+#save-btn{
+	background: darkgreen;
+}
+/* styl ca�ej tabeli */	
+table
+{
+	 padding: 4px 4px 4px 4px; 
+   background: #dff0ff;	
+}
+/* styl kom�rek w tabeli */	
+td 
+{
+ border: 1px black; 
+ border-style: solid;
+ border-color: black;
+}
+	
+
+/* styl odsy�aczy */	
+a 
+{
+	color: #ff0080; 
+	font-size: 1em;
+}
+a:visited {color: #0000ff;}
+a:hover {color: #400080;}
+

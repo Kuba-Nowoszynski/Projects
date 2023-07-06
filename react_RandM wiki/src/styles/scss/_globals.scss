@@ -1,0 +1,55 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.ubuntu {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.form-check-input:checked + label {
+  background: #0b5ed7;
+  color: white;
+}
+
+.navbar-toggler[aria-expanded="false"] .fa-xmark {
+  display: none;
+}
+
+.navbar-toggler[aria-expanded="true"] > .fa-bars {
+  display: none;
+}
+
+.active {
+  color: $blue !important;
+  border-bottom: 0.1rem solid $blue;
+  font-weight: bold;
+}
+
+@media (max-width: 48rem) {
+  .next,
+  .previous {
+    display: none;
+  }
+}
