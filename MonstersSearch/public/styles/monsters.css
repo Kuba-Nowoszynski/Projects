@@ -1,0 +1,37 @@
+.cardList {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cardList .card {
+  background: linear-gradient(0deg, rgb(34, 193, 195) 0%, rgb(253, 187, 45) 100%);
+  display: flex;
+  flex-direction: column;
+  background-color: grey;
+  margin: 1em auto;
+  padding: 1em 2em;
+  border-radius: 5em 0;
+  border-radius: 20%/50%;
+  transition: all 0.25s ease-in-out;
+}
+.cardList .card:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.searchBox {
+  font-size: 1em;
+  padding: 1em;
+  border-radius: 1em;
+  margin-bottom: 1em;
+}
+
+.title {
+  font-family: "Fasthand", cursive;
+  font-size: 4em;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 0.3em;
+  background: radial-gradient(circle, rgb(63, 94, 251) 0%, rgb(70, 252, 140) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}/*# sourceMappingURL=monsters.css.map */

@@ -1,0 +1,47 @@
+.cardList {
+  display: flex;
+  flex-wrap: wrap;
+
+  .card {
+    background: linear-gradient(
+      0deg,
+      rgba(34, 193, 195, 1) 0%,
+      rgba(253, 187, 45, 1) 100%
+    );
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    margin: 1em auto;
+    padding: 1em 2em;
+    border-radius: 5em 0;
+    border-radius: 20% / 50%;
+    transition: all 0.25s ease-in-out;
+
+    &:hover {
+      transform: scale(1.1);
+      cursor: pointer;
+    }
+  }
+}
+
+.searchBox {
+  font-size: 1em;
+  padding: 1em;
+  border-radius: 1em;
+  margin-bottom: 1em;
+}
+
+.title {
+  font-family: "Fasthand", cursive;
+  font-size: 4em;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 0.3em;
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(70, 252, 140, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
