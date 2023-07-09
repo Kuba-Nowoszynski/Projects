@@ -50,7 +50,7 @@ body {
 
 @media (max-width: 48rem) {
   .next,
-.previous {
+  .previous {
     display: none;
   }
 }
@@ -86,7 +86,6 @@ body {
     margin: auto;
   }
   .search-btn {
-    width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
     margin: auto;

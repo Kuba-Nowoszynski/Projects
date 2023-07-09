@@ -5,6 +5,7 @@ import "/public/styles/monsters.css";
 
 export default function Monsters() {
   const [monsters, setMonsters] = useState([]);
+  const [filteredMonsters, setFilteredMonsters] = useState(monsters);
   const [search, setSearch] = useState("");
 
   useEffect(() => {
@@ -18,9 +19,13 @@ export default function Monsters() {
     setMonsters(m);
   }
 
-  const filteredMonsters = monsters.filter((m) =>
-    m.name.toLowerCase().includes(search.toLowerCase().trim())
-  );
+  useEffect(() => {
+    setFilteredMonsters(
+      monsters.filter((m) =>
+        m.name.toLowerCase().includes(search.toLowerCase().trim())
+      )
+    );
+  }, [monsters, search]);
 
   const handleChange = (e) => {
     setSearch(e.target.value);
